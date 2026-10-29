@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "versions": [
+    {
+      "version": "2.1.0",
+      "date": "2026-10-29",
+      "major": false,
+      "updatesFrom": "2.0.0",
+      "notes": {
+        "en": "Readings and media in lessons, output at the box's width with a wider view, \"Try something\" on solved code, each student's own option order, stable ids for options, a proxy on another server, and R basics's Wards 3 and 4 reworked.",
+        "nl": "Leesteksten en media in lessen, uitvoer op de breedte van het vak met een breder overzicht, \"Probeer iets\" bij opgeloste code, een eigen volgorde van opties per student, vaste ids voor opties, een proxy op een andere server, en afdeling 3 en 4 van R basics herzien."
+      },
+      "breaks": null,
+      "afterUpdate": [
+        {
+          "command": "docker compose exec datadose datadose migrate-option-ids",
+          "en": "Once: names the options students chose by their ids in stored progress (it makes a backup first; run it with --dry-run first to see what it would change).",
+          "nl": "Eén keer: noemt de opties die studenten kozen bij hun id in de opgeslagen voortgang (maakt eerst een back-up; voer hem eerst uit met --dry-run om te zien wat er verandert)."
+        }
+      ],
+      "courses": {},
+      "images": null
+    }
+  ]
+}
