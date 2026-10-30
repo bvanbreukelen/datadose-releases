@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.2.0",
+      "date": "2026-10-30",
+      "major": false,
+      "updatesFrom": "2.1.0",
+      "notes": {
+        "en": "DataDose 2.2.0 lets courses be updated beside DataDose itself: running cohorts get new texts, fixes and additions, while changes that would break a started cohort wait for a coordinator. Plugins now describe themselves in a Plugins section on the staff pages, a new theme test checks every page's colours, fonts and contrast, and students' progress keeps data instead of finished sentences, so translations and improved texts reach students who did an exercise before. The System page shows when a newer DataDose is available.",
+        "nl": "DataDose 2.2.0 laat cursussen naast DataDose zelf bijwerken: lopende cohorten krijgen nieuwe teksten, verbeteringen en aanvullingen, terwijl veranderingen die een gestart cohort zouden breken wachten op een coördinator. Plug-ins beschrijven zichzelf in een onderdeel Plug-ins op de pagina's voor medewerkers, een nieuwe themacontrole toetst de kleuren, lettertypen en het contrast van elke pagina, en de voortgang van studenten bewaart gegevens in plaats van kant-en-klare zinnen, zodat vertalingen en verbeterde teksten ook studenten bereiken die een oefening al eerder deden. De pagina Systeem laat zien wanneer er een nieuwere DataDose is."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.10.1",
+        "default-demo": "2026.10.1",
+        "python-dev": "2026.10.1",
+        "python-preview": "2026.10.1",
+        "r-basics": "2026.10.1"
+      },
+      "images": null
+    },
+    {
       "version": "2.1.0",
       "date": "2026-10-29",
       "major": false,
