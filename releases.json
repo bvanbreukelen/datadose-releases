@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.3.0",
+      "date": "2026-11-04",
+      "major": false,
+      "updatesFrom": "2.2.0",
+      "notes": {
+        "en": "DataDose 2.3.0 adds \"Reset to starter\" to every unsolved code card, and opens a lesson's updated starting code with the earlier code one click away. The data panel shows data that an exercise's starting code prepares, and the login shared between open tabs can no longer be obtained by code running in R or Python. R basics 2026.11.1 reworks Ward 4 (Visualise) in English and Dutch. Nothing to run on the server after updating from 2.1.0 or 2.2.0.",
+        "nl": "DataDose 2.3.0 voegt \"Terug naar de startcode\" toe aan elke onopgeloste codekaart, en opent de bijgewerkte startcode van een les met de eerdere code één klik verderop. Het datapaneel laat data zien die de startcode van een oefening voorbereidt, en de inlog die open tabbladen delen, is niet meer te verkrijgen voor code die in R of Python draait. R basics 2026.11.1 vernieuwt afdeling 4 (Visualiseren), in het Engels en het Nederlands. Na het bijwerken vanaf 2.1.0 of 2.2.0 hoeft er niets op de server te worden uitgevoerd."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.10.1",
+        "default-demo": "2026.10.1",
+        "python-dev": "2026.10.1",
+        "python-preview": "2026.10.1",
+        "r-basics": "2026.11.1"
+      },
+      "images": null
+    },
+    {
       "version": "2.2.0",
       "date": "2026-10-30",
       "major": false,
