@@ -5,7 +5,7 @@
       "version": "2.4.0",
       "date": "2026-11-05",
       "major": false,
-      "updatesFrom": "2.3.0",
+      "updatesFrom": "2.1.0",
       "notes": {
         "en": "DataDose 2.4.0 never lets a broken exercise block a student: it tries again, then offers \"Skip this exercise\", and tells the course's staff. A course can be temporarily out of order, set by its coordinators or by DataDose itself, with a warning light, a calm notice and pace paused. readr now reads the same in Safari as in other browsers, a prediction can end in an error, and R basics 2026.11.2 reworks Ward 5's first lessons. Nothing to run on the server after updating.",
         "nl": "DataDose 2.4.0 laat een kapotte opdracht een student nooit meer tegenhouden: hij probeert het opnieuw, biedt dan \"Sla deze opdracht over\" aan, en laat de docenten van de cursus het weten. Een cursus kan tijdelijk buiten gebruik zijn, ingesteld door de coördinatoren of door DataDose zelf, met een waarschuwingslampje, een rustige melding en een gepauzeerd tempo. readr leest in Safari nu hetzelfde als in andere browsers, een voorspelling kan eindigen in een foutmelding, en R basics 2026.11.2 vernieuwt de eerste lessen van afdeling 5. Na het bijwerken hoeft er niets op de server te worden uitgevoerd."
