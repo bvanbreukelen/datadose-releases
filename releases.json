@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.5.0",
+      "date": "2026-11-17",
+      "major": false,
+      "updatesFrom": "2.4.0",
+      "notes": {
+        "en": "DataDose 2.5.0 makes saving progress much lighter (about 20 KB instead of up to 1.5 MB) and lets a student's whole progress grow beyond 1 MB; each student's record moves to the new format by itself, and a page that was open during the update shows \"Not saved yet\" and keeps the work until it is reloaded. Numbers read right in each language (27.5 or 27,5), R basics 2026.11.3 reworks parts of Wards 1, 2, 5, 6 and 7 from play-throughs, the answer key folds very long outputs, and the development server no longer serves answer keys.",
+        "nl": "DataDose 2.5.0 maakt het opslaan van voortgang veel lichter (ongeveer 20 KB in plaats van tot 1,5 MB) en laat de hele voortgang van een student groter worden dan 1 MB; elk record gaat vanzelf naar het nieuwe formaat, en een pagina die tijdens de update openstond toont \"Nog niet opgeslagen\" en bewaart het werk tot hij opnieuw wordt geladen. Getallen staan goed in elke taal (27.5 of 27,5), R basics 2026.11.3 werkt delen van afdeling 1, 2, 5, 6 en 7 om na speelrondes, het antwoordenboek vouwt zeer lange uitvoer op en de ontwikkelserver toont geen antwoordenboeken meer."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.1",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.3"
+      },
+      "images": null
+    },
+    {
       "version": "2.4.0",
       "date": "2026-11-05",
       "major": false,
