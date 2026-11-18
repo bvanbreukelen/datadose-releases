@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.5.2",
+      "date": "2026-11-18",
+      "major": false,
+      "updatesFrom": "2.5.1",
+      "notes": {
+        "en": "Time limits for slow servers: R basics now asks for 300 seconds per lesson test, 180 minutes for all its tests and 60 minutes for its answer keys, because a first full run on a one-CPU server took 107 minutes (tests) and 35 minutes (keys), more than the defaults. Ward 2, lesson 1 also got a small fix: the exercise that asks for a table's rows and columns accepts the two numbers as two lines, as well as `c()`.",
+        "nl": "Tijdslimieten voor trage servers: R basics vraagt nu 300 seconden per lestest, 180 minuten voor al zijn tests en 60 minuten voor zijn antwoordsleutels, omdat een eerste volledige run op een server met één processor 107 minuten (tests) en 35 minuten (sleutels) duurde, meer dan de standaard. Ook kreeg afdeling 2, les 1 een kleine verbetering: de opdracht die om het aantal rijen en kolommen van een tabel vraagt, accepteert de twee getallen ook als twee regels, naast `c()`."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.1",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.5"
+      },
+      "images": null
+    },
+    {
       "version": "2.5.1",
       "date": "2026-11-18",
       "major": false,
