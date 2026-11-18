@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.5.1",
+      "date": "2026-11-18",
+      "major": false,
+      "updatesFrom": "2.5.0",
+      "notes": {
+        "en": "A small update for servers whose lesson tests need more time than the defaults: R basics now asks for 90 minutes for its tests (the default stopped it at 35 minutes on a one-CPU server, so its answer keys were never made), the answer keys' own time limit can be set per course, and a new command retests a course and makes its keys with limits you choose, without a release.",
+        "nl": "Een kleine update voor servers waarop de lestests meer tijd nodig hebben dan de standaard: R basics vraagt nu 90 minuten voor zijn tests (de standaard stopte het na 35 minuten op een server met één processor, waardoor de antwoordsleutels nooit gemaakt werden), de tijdslimiet van de antwoordsleutels is per cursus in te stellen, en een nieuw commando test een cursus opnieuw en maakt de sleutels met limieten die je zelf kiest, zonder nieuwe release."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.1",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.4"
+      },
+      "images": null
+    },
+    {
       "version": "2.5.0",
       "date": "2026-11-17",
       "major": false,
