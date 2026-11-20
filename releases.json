@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.5.3",
+      "date": "2026-11-20",
+      "major": false,
+      "updatesFrom": "2.5.2",
+      "notes": {
+        "en": "The certificate gets a proper layout for long outcome lists: the outcomes flow over as many pages as they need, at a readable size, each page with the ID, the check code and its page number, and nothing runs over a footer (the Dutch R basics certificate no longer overflows). A course's bonus ward can have outcomes of its own: once a student has finished it, the same certificate gains a block marked \"Bonus\" (the ID, check code and study load stay the same), and staff who check the certificate see when the bonus was finished. A faint guilloche pattern sits behind every page, and the certificate's check address is now the installation's public address.",
+        "nl": "Het certificaat krijgt een goede indeling voor lange lijsten leerdoelen: de leerdoelen lopen over zoveel pagina's als nodig, op een leesbaar formaat, elke pagina met het ID, de controlecode en het paginanummer, en niets loopt meer over een voettekst (het Nederlandse certificaat van R basics past nu wel). De bonusafdeling van een cursus kan eigen leerdoelen hebben: heeft een student die afgerond, dan krijgt hetzelfde certificaat een blok met de markering \"Bonus\" (het ID, de controlecode en de studielast blijven gelijk), en medewerkers die het certificaat controleren zien wanneer de bonus is afgerond. Achter elke pagina staat een vaag guilloche-patroon, en het controleadres op het certificaat is nu het publieke adres van de installatie."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.1",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.6"
+      },
+      "images": null
+    },
+    {
       "version": "2.5.2",
       "date": "2026-11-18",
       "major": false,
