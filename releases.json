@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.6.0",
+      "date": "2026-11-21",
+      "major": false,
+      "updatesFrom": "2.5.3",
+      "notes": {
+        "en": "Coordinators can arrange a course's home page (a **Course home** page with the page itself as the editor: the course week, the announcements, text blocks in English and Dutch, downloads such as a PDF or a zip, and the course description in their own words), and show one course in other colours for one cohort (a **Look of this cohort**, with a new theme, UMC Utrecht colours). Backups now carry what can't be rebuilt in the courses volume, and the System page warns when they don't, with a Back up now button. Super admins can export a course as a package. Everything is additive: nothing is incompatible, and R basics is unchanged.",
+        "nl": "Coördinatoren kunnen de startpagina van een cursus indelen (een pagina **Cursuspagina** waarop de pagina zelf de editor is: de cursusweek, de mededelingen, tekstblokken in het Engels en Nederlands, downloads zoals een pdf of een zip, en de cursusbeschrijving in eigen woorden), en één cursus in andere kleuren tonen voor één cohort (een **Uiterlijk van deze cohort**, met een nieuw thema, UMC Utrecht-kleuren). Back-ups bevatten nu wat in het cursusvolume niet opnieuw gemaakt kan worden, en de Systeem-pagina waarschuwt als dat niet zo is, met een knop Nu een back-up maken. Superbeheerders kunnen een cursus als pakket exporteren. Alles is aanvullend: niets is incompatibel, en R basics is ongewijzigd."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.1",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.6"
+      },
+      "images": null
+    },
+    {
       "version": "2.5.3",
       "date": "2026-11-20",
       "major": false,
