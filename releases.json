@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.7.0",
+      "date": "2026-11-23",
+      "major": false,
+      "updatesFrom": "2.6.0",
+      "notes": {
+        "en": "Coordinators can now change a course that was uploaded to their server without leaving DataDose: a **Course editor** (in the course's menu) opens a draft of the course, shows its files, checks every change at once, shows a preview exactly as a student would see it, and publishes the draft as a new version of the course, with the lesson tests passing first. The last publish can be undone, and DataDose warns when the live course changed while a draft was open. Students keep the live course the whole time. Students and staff also see which course version is played, in a quiet line on the course's pages, and problem reports now carry it. R basics itself is unchanged.",
+        "nl": "Coördinatoren kunnen nu een cursus die op hun server is geüpload aanpassen zonder DataDose te verlaten: een **Cursuseditor** (in het menu van de cursus) opent een concept van de cursus, toont de bestanden, controleert elke wijziging meteen, toont een voorbeeld precies zoals een student het ziet, en publiceert het concept als een nieuwe versie van de cursus, nadat de lessentests zijn geslaagd. De laatste publicatie kan ongedaan worden gemaakt, en DataDose waarschuwt als de actuele cursus veranderde terwijl een concept openstond. Studenten houden de hele tijd de actuele cursus. Studenten en medewerkers zien ook welke cursusversie wordt gespeeld, in een rustige regel op de pagina's van de cursus, en meldingen van problemen bevatten die nu. R basics zelf is ongewijzigd."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.1",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.6"
+      },
+      "images": null
+    },
+    {
       "version": "2.6.0",
       "date": "2026-11-21",
       "major": false,
