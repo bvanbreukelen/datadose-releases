@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.8.0",
+      "date": "2026-11-24",
+      "major": false,
+      "updatesFrom": "2.7.1",
+      "notes": {
+        "en": "Ward 8 of R basics is reworked after a second scan (a breaking course version: running cohorts stay on their version until a coordinator moves them), and super admins get a new tool for updates: **the older-versions test** on the System page's Versions list, which runs every lesson of the course versions students still use against the package set the server runs now. The System page unfolds into sections, the Plugins lists read as one row per name with language labels, and `update.sh` now checks for free disk space first and removes old images afterwards.",
+        "nl": "Ward 8 van R basics is herzien na een tweede scan (een brekende cursusversie: lopende cohorten blijven op hun versie tot een coördinator ze verplaatst), en superbeheerders krijgen een nieuw hulpmiddel voor updates: **de test van oudere versies** in de lijst Versies op de Systeempagina, die elke les van de cursusversies die studenten nog gebruiken draait met de pakketten die de server nu draait. De Systeempagina klapt open in onderdelen, de lijsten bij Plugins tonen één regel per naam met taallabels, en `update.sh` controleert nu eerst of er genoeg schijfruimte is en ruimt daarna oude images op."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.3",
+        "default-demo": "2026.11.2",
+        "python-dev": "2026.11.3",
+        "python-preview": "2026.11.3",
+        "r-basics": "2026.11.8"
+      },
+      "images": null
+    },
+    {
       "version": "2.7.1",
       "date": "2026-11-24",
       "major": false,
