@@ -2,6 +2,26 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.7.1",
+      "date": "2026-11-24",
+      "major": false,
+      "updatesFrom": "2.7.0",
+      "notes": {
+        "en": "A security release. DataDose's server image moves off Alpine 3.20, which stopped getting security fixes in April, to Alpine 3.24; PocketBase is updated to 0.40.6 (Go network-library fixes, one a denial-of-service fix, and the new CA certificate bundle) and now downloads from PocketBase's own site as well as GitHub; the build and test images move to Node 24 (with the November security fixes), the optional bundled web server to Caddy 2.11.9, and the development tools to the newest security-fixed versions (vite 8.3.7 closes a critical development-server flaw, only reachable with `npm run dev:lan`). It also carries one new feature for course authors, `matches_solution()` and `first_wrong()` (a check can compare a student's named object with the solution's), used in one exercise of R basics (2026.11.7) and one of the demo course (2026.11.2).",
+        "nl": "Een beveiligingsupdate. Het serverimage van DataDose gaat van Alpine 3.20, dat sinds april geen beveiligingsfixes meer krijgt, naar Alpine 3.24; PocketBase wordt bijgewerkt naar 0.40.6 (fixes in Go's netwerkbibliotheek, waaronder een tegen denial-of-service, en de nieuwe set CA-certificaten) en haalt zijn bestand nu ook van de eigen site van PocketBase, niet alleen van GitHub; de build- en testimages gaan naar Node 24 (met de beveiligingsfixes van november), de optionele meegeleverde webserver naar Caddy 2.11.9, en de ontwikkelgereedschappen naar de nieuwste versies met beveiligingsfixes (vite 8.3.7 sluit een kritiek lek in de ontwikkelserver, alleen bereikbaar met `npm run dev:lan`). Daarnaast bevat hij één nieuwe functie voor cursusmakers, `matches_solution()` en `first_wrong()` (een controle kan het object van een student vergelijken met dat van de oplossing), gebruikt in één opgave van R basics (2026.11.7) en één van de democursus (2026.11.2)."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.2",
+        "default-demo": "2026.11.2",
+        "python-dev": "2026.11.2",
+        "python-preview": "2026.11.2",
+        "r-basics": "2026.11.7"
+      },
+      "images": null
+    },
+    {
       "version": "2.7.0",
       "date": "2026-11-23",
       "major": false,
