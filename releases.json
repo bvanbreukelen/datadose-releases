@@ -2,6 +2,27 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.8.1",
+      "date": "2026-11-25",
+      "major": false,
+      "updatesFrom": "2.8.0",
+      "notes": {
+        "en": "A background job (testing the older versions, checking again, exporting, copying, backing up) no longer vanishes when you leave the System page: coming back shows its progress and a disabled button with when it started, and the server refuses a second request for the same thing. A test that could not be run (the runner restarted, ran out of memory or time) now says \"couldn't be tested\" with the reason and what to do, instead of \"lessons with problems\", and never leaves a job folder the other container can't remove. The System page says when DataDose is still finishing an update, warns when the server has less than 2 GB of memory or is swapping, and an update that changes nothing a lesson test sees no longer re-tests every course. **A draft course is never shown to visitors any more, the demo course included.**",
+        "nl": "Een achtergrondtaak (de oudere versies testen, opnieuw controleren, exporteren, kopiëren, een back-up maken) verdwijnt niet meer als je de Systeempagina verlaat: wie terugkomt ziet de voortgang en een uitgeschakelde knop met het begintijdstip, en de server weigert een tweede verzoek voor hetzelfde. Een test die niet kon draaien (de runner werd herstart, kreeg te weinig geheugen of tijd) zegt nu \"kon niet worden getest\" met de reden en wat je kunt doen, in plaats van \"lessen met problemen\", en laat nooit een taakmap achter die de andere container niet kan verwijderen. De Systeempagina zegt wanneer DataDose nog bezig is met de update, waarschuwt bij minder dan 2 GB geheugen of wisselgeheugen, en een update die niets wijzigt wat een lessentest ziet, test niet meer elke cursus opnieuw. **Een conceptcursus wordt nooit meer aan bezoekers getoond, ook de democursus niet.**"
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.3",
+        "default-demo": "2026.11.3",
+        "python-dev": "2026.11.3",
+        "python-preview": "2026.11.3",
+        "r-basics": "2026.11.8",
+        "starter-course": "2026.11.1"
+      },
+      "images": null
+    },
+    {
       "version": "2.8.0",
       "date": "2026-11-24",
       "major": false,
