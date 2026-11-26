@@ -2,6 +2,29 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.9.0",
+      "date": "2026-11-26",
+      "major": false,
+      "updatesFrom": "2.8.1",
+      "notes": {
+        "en": "Lesson tests run in several processes at once, sized from what the machine really has with the site always first: R basics's tests in the server's runner take about 3 minutes instead of 12 (measured), and `npm test` on a laptop uses as many workers as its memory allows. Two published **showcase demos** (R and Python, 8 and 7 exercises) can be played by visitors without an account when a super admin switches that on; the development courses and the two old demo courses are no longer shipped, and an update stops, before changing anything, when a course on the server still runs one of them. The System page's Versions section is tidier (the update's note and the server's memory once, \"Up to date\", a calm line instead of a warning while the update finishes), its button is now \"Test the versions in use\", and a release can no longer make a new version of a course it did not change.",
+        "nl": "Lessentests draaien in meerdere processen tegelijk, afgestemd op wat de machine werkelijk heeft en met de site altijd eerst: de tests van R basics duren in de runner van de server ongeveer 3 minuten in plaats van 12 (gemeten), en `npm test` op een laptop gebruikt zoveel workers als het geheugen toestaat. Twee gepubliceerde **showcase-demo's** (R en Python, 8 en 7 opdrachten) kunnen door bezoekers zonder account worden gespeeld als een superbeheerder dat aanzet; de ontwikkelcursussen en de twee oude democursussen worden niet meer meegeleverd, en een update stopt, voordat er iets verandert, als een cursus op de server er nog een van draait. Het onderdeel Versies op de Systeempagina is netter (de melding over de update en het geheugen van de server één keer, \"Actueel\", een rustige regel in plaats van een waarschuwing terwijl de update klaar wordt), de knop heet nu \"Test de versies in gebruik\", en een release kan geen nieuwe versie meer maken van een cursus die hij niet veranderde."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.3",
+        "default-demo": "2026.11.3",
+        "demo-first-look": "2026.11.1",
+        "demo-python": "2026.11.1",
+        "python-dev": "2026.11.3",
+        "python-preview": "2026.11.3",
+        "r-basics": "2026.11.8",
+        "starter-course": "2026.11.1"
+      },
+      "images": null
+    },
+    {
       "version": "2.8.1",
       "date": "2026-11-25",
       "major": false,
