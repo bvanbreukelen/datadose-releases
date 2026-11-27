@@ -2,6 +2,29 @@
   "format": 1,
   "versions": [
     {
+      "version": "2.10.0",
+      "date": "2026-11-27",
+      "major": false,
+      "updatesFrom": "2.9.0",
+      "notes": {
+        "en": "The Course editor can now change what students read and the shape of a lesson, not only its files: every text in English and the course's other language side by side, with what is missing marked; and a lesson drawn as the chat itself, where a coordinator adds, edits, moves and removes messages, readings, choices and the study plan. The staff pages' side menu collapses into the left margin. Nothing changes for students, and no course changed.",
+        "nl": "De cursuseditor kan nu veranderen wat studenten lezen en hoe een les in elkaar zit, niet alleen de bestanden: elke tekst in het Engels en de andere taal van de cursus naast elkaar, met wat ontbreekt gemarkeerd; en een les getekend als de chat zelf, waarin een coördinator berichten, leesteksten, keuzes en het studieplan toevoegt, wijzigt, verplaatst en verwijdert. Het zijmenu van de pagina's voor medewerkers klapt in tot de linkermarge. Voor studenten verandert er niets, en geen cursus is veranderd."
+      },
+      "breaks": null,
+      "afterUpdate": [],
+      "courses": {
+        "datadose-dev": "2026.11.3",
+        "default-demo": "2026.11.3",
+        "demo-first-look": "2026.11.1",
+        "demo-python": "2026.11.1",
+        "python-dev": "2026.11.3",
+        "python-preview": "2026.11.3",
+        "r-basics": "2026.11.8",
+        "starter-course": "2026.11.1"
+      },
+      "images": null
+    },
+    {
       "version": "2.9.0",
       "date": "2026-11-26",
       "major": false,
